@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --partition=compute
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=24
+#SBATCH --mem=40G
+#SBATCH -t 48:00:00
+#SBATCH -o output.log 
+#SBATCH -e error.log 
+#SBATCH --job-name="ABGNR"
+#SBATCH --export=ALL
+#SBATCH -A TG-DMR130081
+
+module purge
+module load gnutools
+module load intel/2016.3.210
+module load intelmpi
+
+mpirun lmp_mpi < in.graphene

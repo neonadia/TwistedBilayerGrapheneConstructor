@@ -1,0 +1,28 @@
+LAMMPS (16 Mar 2018)
+Reading data file ...
+  triclinic box = (0 0 -15) to (141.037 122.141 15) with tilt (-70.5183 0 0)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  13104 atoms
+Reading potential file C.lcbop with DATE: 2012-05-22
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 8.6
+  ghost atom cutoff = 8.6
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lcbop, perpetual
+      attributes: full, newton on, ghost
+      pair build: full/nsq/ghost
+      stencil: none
+      bin: none
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.002
+Per MPI rank memory allocation (min/avg/max) = 1986 | 1986 | 1986 Mbytes
+Step Temp PotEng KinEng Press Pxx Pyy 
+       0          300   -96462.553     508.1087   -2174.8151   -4588.7954   -4603.6261 
+     100    242.66663    -96039.07    411.00343   -4040.0881    -5760.644   -5530.4066 
+     200    283.56633   -95988.725    480.27507   -3770.4269   -5937.1885   -5742.3005 
+     300    290.95721   -95967.775    492.79296   -3868.6511   -5769.5699   -5679.3533 
